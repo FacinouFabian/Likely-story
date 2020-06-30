@@ -1,0 +1,37 @@
+{
+  "name": "tailwind-base-config",
+  "version": "1.0.0",
+  "description": "Basic template with tailwind, to start faster",
+  "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.3.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "build": "npx postcss app/css/tailwind.css -o app/public/tailwind.css",
+    "start": "npx live-server app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhirba/tailwind-base-config.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwindUI",
+    "postcss",
+    "live-server",
+    "front",
+    "mhirba"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhirba/tailwind-base-config/issues"
+  },
+  "homepage": "https://github.com/mhirba/tailwind-base-config#readme"
+}

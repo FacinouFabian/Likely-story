@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+/* Fonts */
+@font-face {
+    font-family: cera-medium;
+    src: url(../public/fonts/Cera-Medium.woff) format("woff"),url(../public/fonts/Cera-Medium.woff2) format("woff2"),url(../public/fonts/Cera-Medium.ttf) format("truetype");
+    font-weight: 600
+}
+
+@font-face {
+    font-family: cera-basic;
+    src: url(../public/fonts/CeraBasic-Bold.woff) format("woff"),url(../public/fonts/CeraBasic-Bold.woff2) format("woff2"),url(../public/fonts/CeraBasic-Bold.ttf) format("truetype");
+    font-weight: 700
+}
+
+@font-face {
+    font-family: cera-bold;
+    src: url(../public/fonts/CeraBasic-BoldItalic.woff) format("woff"),url(../public/fonts/CeraBasic-BoldItalic.woff2) format("woff2"),url(../public/fonts/CeraBasic-BoldItalic.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: cera-regular;
+    src: url(../public/fonts/CeraBasic-Regular.woff) format("woff"),url(../public/fonts/CeraBasic-Regular.woff2) format("woff2"),url(../public/fonts/CeraBasic-Regular.ttf) format("truetype");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: cera-italic;
+    src: url(../public/fonts/CeraBasic-RegularItalic.woff) format("woff"),url(../fonts/CeraBasic-RegularItalic.woff2) format("woff2"),url(../fonts/CeraBasic-RegularItalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic
+}
+/* /Fonts */
+
+@import "tailwindcss/utilities";

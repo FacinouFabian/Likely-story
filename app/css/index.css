@@ -1,0 +1,74 @@
+*, *::before, *::after{
+
+}
+
+html {
+    margin:0;
+    padding:0;
+}
+
+.h1, h1 {
+    font-size: 6.4rem;
+    letter-spacing: -.02em;
+}
+
+.h1, .h3, .h4, h1, h3, h4, h5 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.h4, h4 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    letter-spacing: -.01em;
+}
+
+.h5, h5 {
+    font-size: 1.3rem;
+    line-height: 1.4444;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.section__wrapper[data-hover=true] .section__preheader-wrapper, .section__wrapper[data-hover=true] .section__subtitle, .section__wrapper[data-hover=true] .section__title {
+    -webkit-transform: translateY(5.1rem);
+    -ms-transform: translateY(5.1rem);
+    transform: translateY(5.1rem);
+    -webkit-transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+    transition: -webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+    transition: transform .6s cubic-bezier(.165,.84,.44,1);
+    transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+}
+
+.stable {
+    position: relative;
+  }
+  .stable .movingTop {
+    position: relative;
+    bottom: 0;
+  }
+  .stable:hover .movingTop {
+    bottom: 50px;
+    transition-duration: .7s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .stable:hover .invisible {
+    visibility: visible;
+    transition-duration: .7s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .fh > .container {
+    padding-bottom: 7.3rem;
+  }
+
+  .stable .movingTop.cubic-bezier {
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+  }
