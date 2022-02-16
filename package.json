@@ -13,7 +13,7 @@
     "live-server": "^1.2.1"
   },
   "scripts": {
-    "build": "npx postcss app/css/tailwind.css -o app/public/tailwind.css",
+    "build:css": "npx postcss app/css/tailwind.css -o app/public/tailwind.css",
     "start": "npx live-server app"
   },
   "repository": {
